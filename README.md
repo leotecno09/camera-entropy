@@ -33,7 +33,7 @@ GET /api/random/int?min=10&max=50
 ```json
 {
   "success": true,
-  "value¨: 43
+  "value": 43
 }
 ```
 
@@ -60,7 +60,7 @@ GET /api/random/float?min=10.4&max=50.51
 ```json
 {
   "success": true,
-  "value¨: 21.745496281325718
+  "value": 21.745496281325718
 }
 ```
 
@@ -86,7 +86,7 @@ GET /api/random/choice?option=apple&option=banana&option=orange
 ```json
 {
   "success": true,
-  "value¨: "banana"
+  "value": "banana"
 }
 ```
 
@@ -109,7 +109,7 @@ GET /api/token/uuid
 ```json
 {
   "success": true,
-  "value¨: "27baf1ed-75f2-47e1-bb2b-f68eb4f40b2b"
+  "value": "27baf1ed-75f2-47e1-bb2b-f68eb4f40b2b"
 }
 ```
 
