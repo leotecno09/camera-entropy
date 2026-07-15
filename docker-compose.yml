@@ -1,0 +1,12 @@
+services:
+  random-server:
+    build: .
+    container_name: random-server
+    ports:
+      - "5000:5000"
+    environment:
+      - RTSP_URL_LEO=${RTSP_URL_LEO}
+      - RTSP_URL_SALOTTO=${RTSP_URL_SALOTTO}
+    env_file:
+      - .env
+    restart: unless-stopped
